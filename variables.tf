@@ -3,6 +3,7 @@ variable "server_domain" {}
 variable "server_hostnames" {
 	type = "map"
 }
+variable "acl_token" {}
 
 # Server Config File
 data "template_file" "server_config" {
